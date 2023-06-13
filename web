@@ -1,0 +1,3 @@
+cadena = "Ola Mundo"
+caracteres = [[c for c in cadena if c.isupper()], [c for c in cadena if c.islower()]]
+print(caracteres)   
